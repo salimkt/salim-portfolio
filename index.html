@@ -8,7 +8,7 @@
 <meta property="og:title" content="Muhammed Salim K T · AI/ML Engineer">
 <meta property="og:description" content="Production voice AI, agent engines and RAG.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/echo-architecture.png">
+<meta property="og:image" content="https://muhammed-salim.onrender.com/assets/salim.jpg">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='50%' y='56%' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='white'>MS</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,6 +63,11 @@ h1 .grad{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 :root[data-theme="dark"] .btn.primary{color:#04201d}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.primary{color:#04201d}}
+.hero-grid{display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:center}
+.portrait{position:relative;margin:0}
+.portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:24px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.portrait::before{content:"";position:absolute;inset:-10px -10px 10px 10px;border-radius:28px;background:linear-gradient(135deg,var(--accent),var(--accent-2));opacity:.18;z-index:-1}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr;gap:28px}.portrait{max-width:220px;order:-1}}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
 .stat{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
 .stat b{display:block;font-size:26px;letter-spacing:-.02em}
@@ -145,7 +150,7 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
 
 <main id="top">
   <div class="wrap hero">
-    <h1>I build <span class="grad">production AI systems</span> where the model is the product.</h1>
+    <div class="hero-grid"><div><h1>I build <span class="grad">production AI systems</span> where the model is the product.</h1>
     <p class="lede">AI/ML engineer with 4+ years shipping LLM systems to real users: a speech-AI service for a US telephony provider, the multi-agent engine that lets a 12B model do 32B-class work, and RAG over 10M+ embeddings, often on-prem and air-gapped.</p>
     <div class="cta">
       <a class="btn primary" href="assets/Muhammed_Salim_CV.pdf" target="_blank" rel="noopener">Download CV</a>
@@ -153,6 +158,8 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
       <a class="btn" href="https://www.linkedin.com/in/muhammed-salim-k-t-498125165" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn" href="https://github.com/salimkt" target="_blank" rel="noopener">GitHub</a>
     </div>
+    </div>
+    <figure class="portrait"><img src="assets/salim.jpg" alt="Portrait of Muhammed Salim K T" width="490" height="612"></figure></div>
     <div class="stats">
       <div class="stat"><b>12B → 32B</b><span>class work from a smaller model</span></div>
       <div class="stat"><b>10M+</b><span>embeddings in production RAG</span></div>
