@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammed Salim K T · AI/ML Engineer</title>
+<meta name="description" content="AI/ML engineer building production LLM systems: voice AI, multi-agent tool calling, and RAG at 10M+ embeddings. Native Arabic, fluent English. Open to roles in the UAE and Saudi Arabia.">
+<meta property="og:title" content="Muhammed Salim K T · AI/ML Engineer">
+<meta property="og:description" content="Production voice AI, agent engines and RAG. Native Arabic. Open to roles in the UAE and Saudi Arabia.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/echo-architecture.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='50%' y='56%' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='white'>MS</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Naskh+Arabic:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f8fa; --surface:#ffffff; --surface-2:#f0f3f6; --text:#0f172a; --muted:#475569; --faint:#94a3b8;
+  --line:#e2e8f0; --accent:#0f766e; --accent-2:#0e7490; --accent-soft:#ccfbf1; --chip:#eef2f6;
+  --shadow:0 1px 2px rgba(15,23,42,.06),0 8px 24px rgba(15,23,42,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b1117; --surface:#111a22; --surface-2:#16212b; --text:#e6edf3; --muted:#a3b3c2; --faint:#64748b;
+    --line:#1f2c38; --accent:#2dd4bf; --accent-2:#38bdf8; --accent-soft:#0f3a37; --chip:#17232e;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b1117; --surface:#111a22; --surface-2:#16212b; --text:#e6edf3; --muted:#a3b3c2; --faint:#64748b;
+  --line:#1f2c38; --accent:#2dd4bf; --accent-2:#38bdf8; --accent-soft:#0f3a37; --chip:#17232e;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.brand{font-weight:800;letter-spacing:-.02em;color:var(--text)}
+.brand span{color:var(--accent)}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+.nav ul a{color:var(--muted);font-weight:500;font-size:14.5px}
+.nav ul a:hover{color:var(--text);text-decoration:none}
+.theme{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:10px;width:36px;height:36px;cursor:pointer;font-size:16px}
+@media (max-width:760px){.nav ul{display:none}}
+
+.hero{padding-top:88px;padding-bottom:56px}
+@media (max-width:760px){.hero{padding-top:48px}.sec-h{flex-direction:column;align-items:flex-start;gap:6px}.flag-top,.flag-grid{padding-left:18px;padding-right:18px}.contact{padding:26px}}
+body{overflow-x:hidden}
+h1,p,li{overflow-wrap:anywhere}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:6px 12px;border-radius:999px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 25%,transparent)}
+h1{font-size:clamp(36px,6vw,60px);line-height:1.05;letter-spacing:-.035em;margin:18px 0 14px;font-weight:800}
+h1 .grad{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:760px;margin:0}
+.arabic{font-family:"Noto Naskh Arabic",serif;font-size:19px;color:var(--muted);margin:14px 0 0;direction:rtl;text-align:left}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:12px;font-weight:600;font-size:15px;border:1px solid var(--line);background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
+.btn:hover{text-decoration:none;border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-theme="dark"] .btn.primary{color:#04201d}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.primary{color:#04201d}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+.stat b{display:block;font-size:26px;letter-spacing:-.02em}
+.stat span{color:var(--muted);font-size:14px}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}
+
+section{padding:56px 0;border-top:1px solid var(--line)}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:22px}
+h2{font-size:clamp(26px,3.4vw,34px);letter-spacing:-.025em;margin:0}
+.sec-h p{color:var(--muted);margin:0;max-width:520px}
+h3{font-size:20px;letter-spacing:-.015em;margin:0 0 6px}
+
+.flag{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+.flag-top{padding:28px 28px 8px}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.flag-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;padding:0 28px 28px}
+@media (max-width:860px){.flag-grid{grid-template-columns:1fr}}
+.flag figure{margin:0;background:#fff;border-radius:14px;border:1px solid var(--line);overflow:hidden}
+figure img{display:block;width:100%;height:auto;cursor:zoom-in}
+figcaption{font-size:13px;color:var(--faint);padding:8px 12px;background:var(--surface-2)}
+ul.points{margin:0;padding-left:18px}
+ul.points li{margin:6px 0;color:var(--muted)}
+ul.points li b{color:var(--text)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{font:500 12.5px/1 "JetBrains Mono",ui-monospace,monospace;background:var(--chip);color:var(--muted);border:1px solid var(--line);padding:7px 9px;border-radius:8px}
+
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media (max-width:860px){.cards{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.card .metric{font-size:14px;font-weight:600;color:var(--accent);margin:2px 0 10px}
+.card p{color:var(--muted);margin:0 0 6px}
+.card figure{margin:14px 0 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.card .chips{margin-top:auto;padding-top:14px}
+
+.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media (max-width:860px){.principles{grid-template-columns:1fr}}
+.pr{background:var(--surface-2);border:1px solid var(--line);border-radius:16px;padding:20px}
+.pr .n{font:600 13px "JetBrains Mono",monospace;color:var(--accent)}
+.pr p{color:var(--muted);margin:6px 0 0}
+
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media (max-width:860px){.skills{grid-template-columns:1fr}}
+.sk h4{margin:0 0 10px;font-size:15px}
+
+.tl{position:relative;margin-left:8px;padding-left:22px;border-left:2px solid var(--line)}
+.tl .item{position:relative;margin-bottom:22px}
+.tl .item::before{content:"";position:absolute;left:-30px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--accent)}
+.tl .when{font-size:13px;color:var(--faint);font-weight:600}
+.tl p{color:var(--muted);margin:4px 0 0}
+
+.contact{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;border-radius:24px;padding:36px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.contact h2{color:#fff}
+.contact p{margin:6px 0 0;opacity:.9}
+.contact .btn{background:#fff;color:#0f172a;border-color:#fff}
+footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
+
+.lb{position:fixed;inset:0;background:rgba(2,6,12,.88);display:none;align-items:center;justify-content:center;padding:20px;z-index:50;cursor:zoom-out}
+.lb img{max-width:100%;max-height:100%;border-radius:10px;background:#fff}
+.lb.on{display:flex}
+.reveal{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Muhammed Salim<span>.</span></a>
+    <ul>
+      <li><a href="#echo">Echo</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#approach">Approach</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme" id="theme" aria-label="Toggle colour theme">◐</button>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <span class="eyebrow"><span class="dot"></span>Open to AI roles in the UAE &amp; Saudi Arabia · 40-day notice</span>
+    <h1>I build <span class="grad">production AI systems</span> where the model is the product.</h1>
+    <p class="lede">AI/ML engineer with 4+ years shipping LLM systems to real users: a speech-AI service for a US telephony provider, the multi-agent engine that lets a 12B model do 32B-class work, and RAG over 10M+ embeddings, often on-prem and air-gapped. Native Arabic speaker.</p>
+    <p class="arabic">مهندس ذكاء اصطناعي، متحدث أصلي باللغة العربية، أبني أنظمة نماذج لغوية تعمل في بيئات الإنتاج.</p>
+    <div class="cta">
+      <a class="btn primary" href="assets/Muhammed_Salim_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+      <a class="btn" href="mailto:mohdsalimkt@gmail.com">mohdsalimkt@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/muhammed-salim-k-t-498125165" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/salimkt" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>12B → 32B</b><span>class work from a smaller model</span></div>
+      <div class="stat"><b>10M+</b><span>embeddings in production RAG</span></div>
+      <div class="stat"><b>50k+</b><span>concurrent users on live captions</span></div>
+      <div class="stat"><b>8</b><span>Kubernetes environments incl. GPU/DGX</span></div>
+    </div>
+  </div>
+
+  <section id="echo">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>Flagship: Echo</h2><p>Production speech AI for a US hosted-telephony provider's voicemail and call-recording features.</p></div>
+      <article class="flag reveal">
+        <div class="flag-top">
+          <span class="tag">Speech AI · in production</span>
+          <h3>Two flows, two engines, one reliable service</h3>
+        </div>
+        <div class="flag-grid">
+          <div>
+            <ul class="points">
+              <li><b>Voicemail, accuracy-first:</b> NVIDIA Canary, with automatic fallback to Whisper when output is degenerate, and a final failover to the shared vLLM tier.</li>
+              <li><b>Call recordings, throughput-first:</b> Whisper served on vLLM behind a load balancer, Redis priority queues (0–99) with live re-prioritisation, and Celery workers on stateless HA nodes.</li>
+              <li><b>Long audio:</b> 45-minute chunks up to 10 hours, with timestamps kept absolute across chunks; automatic language ID.</li>
+              <li><b>Speaker diarization:</b> Silero VAD per channel for stereo; ECAPA-TDNN embeddings with agglomerative clustering for mono.</li>
+              <li><b>LLM analytics that never block transcription:</b> Gemma summaries and keywords on a separate queue and load balancer, delivered by webhook or polling.</li>
+              <li><b>Operations:</b> hash-based duplicate suppression, per-tenant correction rules, CUDA-error watchdog, fork-safe PyTorch in Celery.</li>
+            </ul>
+            <p style="color:var(--muted);margin-top:14px"><b style="color:var(--text)">Lesson I carry everywhere:</b> a 200 OK isn't success. Validate the model's <i>output</i>, not the status code, and fail over automatically.</p>
+            <div class="chips"><span class="chip">NVIDIA Canary</span><span class="chip">Whisper</span><span class="chip">vLLM</span><span class="chip">FastAPI</span><span class="chip">Celery</span><span class="chip">Redis</span><span class="chip">Cassandra</span><span class="chip">SpeechBrain</span><span class="chip">Silero VAD</span><span class="chip">Gemma</span></div>
+          </div>
+          <figure><img src="assets/echo-architecture.png" alt="Echo architecture: voicemail flow with Canary to Whisper to vLLM failover, call-recording flow with API, Redis priority queue, Celery workers and Whisper on vLLM, and a separate analytics queue with Gemma" loading="lazy"><figcaption>Echo architecture (host and customer names omitted)</figcaption></figure>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>Selected work</h2><p>Everything here runs in production or is public on GitHub.</p></div>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="tag">Agents</span>
+          <h3>Multi-agent tool-calling engine</h3>
+          <div class="metric">Replaced CrewAI · 12B model doing 32B-class work · GPU cluster → single node</div>
+          <p>I wrote the engine behind an enterprise on-prem LLM platform (~49k lines, largest contributor): a 73-toolset registry with schema-validated tool calls, ReAct with tiered escalation, structured delegate / ask / finish steps, a FAST/SMALL/LARGE/THINKING model router over vLLM and Ollama, SSE event streaming and Redis-backed admission control.</p>
+          <figure><img src="assets/agent-engine-architecture.png" alt="Agent engine layers: clients, admission and routing, orchestrator, tools, model router, quality" loading="lazy"></figure>
+          <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">vLLM</span><span class="chip">Ollama</span><span class="chip">Redis</span><span class="chip">Kubernetes</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Retrieval</span>
+          <h3>Enterprise RAG platform</h3>
+          <div class="metric">10M+ embeddings · 10,000+ queries/day · on-prem &amp; air-gapped</div>
+          <p>Ingestion with Docling for layout-aware parsing (PDFs, DOCX, tables, figures) and RapidOCR / PaddleOCR-VL / Qwen-VL for scanned documents; structure-aware chunking; hybrid dense + keyword retrieval with re-ranking. Runs on Cassandra Vector, pgvector, Qdrant and FAISS across 8 Kubernetes environments, built to HIPAA-style controls.</p>
+          <div class="chips"><span class="chip">Docling</span><span class="chip">RapidOCR</span><span class="chip">pgvector</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Sentence-Transformers</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Speech &amp; Vision</span>
+          <h3>Live captions and document AI</h3>
+          <div class="metric">92% caption accuracy · 50,000+ concurrent WebSocket users</div>
+          <p>Whisper speech-to-text and Tacotron2 text-to-speech shipped into a video-calling product. Document AI with PaddleOCR-VL and Qwen-VL served via Transformers, LayoutLMv3 fine-tuning and multiple OCR engines feeding the RAG pipeline.</p>
+          <div class="chips"><span class="chip">Whisper</span><span class="chip">Tacotron2</span><span class="chip">WebSockets</span><span class="chip">PaddleOCR-VL</span><span class="chip">Qwen-VL</span><span class="chip">LayoutLMv3</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Arabic AI</span>
+          <h3>Arabic LLM fine-tuning</h3>
+          <div class="metric">Native speaker · 11 years of classical Arabic study</div>
+          <p>LoRA / QLoRA fine-tuning of open models for Arabic with Unsloth and PEFT. Because Arabic is my first language, I can judge whether a model's Arabic is actually correct, not just fluent-sounding. That matters for retrieval, generation and evaluation on Gulf products.</p>
+          <div class="chips"><span class="chip">Unsloth</span><span class="chip">LoRA</span><span class="chip">PEFT</span><span class="chip">Hugging Face</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Automation</span>
+          <h3>AI ticket triage with human approval (n8n)</h3>
+          <div class="metric">LLM drafts · coded guardrails decide · a human approves risky cases</div>
+          <p>A webhook takes a customer ticket; an LLM classifies it and drafts a reply as structured JSON; deterministic rules route refunds, warranty, low-confidence or high-value cases to an Approve / Edit / Reject form. Tested on 8 scenarios including Arabic and a prompt-injection attempt.</p>
+          <figure><img src="assets/n8n-triage-workflow.png" alt="n8n workflow from webhook through LLM classification and guardrails to auto-reply or human approval" loading="lazy"></figure>
+          <div class="chips"><span class="chip">n8n</span><span class="chip">OpenAI</span><span class="chip">Structured outputs</span><span class="chip">Human-in-the-loop</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Open source</span>
+          <h3>small-model-agents</h3>
+          <div class="metric">Agent evaluation harness · CI regression gate · MCP server</div>
+          <p>Public work on making small models reliable agents: an evaluation harness with a CI gate that blocks regressions, plus a published Model Context Protocol server (stdio JSON-RPC).</p>
+          <p><a href="https://github.com/salimkt/small-model-agents" target="_blank" rel="noopener">github.com/salimkt/small-model-agents →</a></p>
+          <div class="chips"><span class="chip">Evals</span><span class="chip">MCP</span><span class="chip">GitHub Actions</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>How I build AI products</h2><p>Three principles from shipping systems that real people depend on.</p></div>
+      <div class="principles">
+        <div class="pr reveal"><div class="n">01</div><h3>Treat model output as untrusted</h3><p>Structured outputs, validation and guardrails in code, and a human in the loop for high-risk actions. Rules decide; the model reads and writes.</p></div>
+        <div class="pr reveal"><div class="n">02</div><h3>Design for cost and failure</h3><p>Return fast, queue behind, put model tiers behind load balancers with failover, and route to small models first, escalating only when needed.</p></div>
+        <div class="pr reveal"><div class="n">03</div><h3>Measure everything</h3><p>Every change ships with an eval set and a CI regression gate. I track recall, latency and cost per request, so quality is provable, not anecdotal.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>Skills</h2><p>Hands-on, in production unless noted.</p></div>
+      <div class="skills">
+        <div class="sk reveal"><h4>LLMs, agents &amp; RAG</h4><div class="chips"><span class="chip">Tool calling</span><span class="chip">Multi-agent</span><span class="chip">CrewAI</span><span class="chip">LangChain</span><span class="chip">LlamaIndex</span><span class="chip">MCP</span><span class="chip">Hybrid search</span><span class="chip">Re-ranking</span><span class="chip">Evals</span><span class="chip">Prompt engineering</span></div></div>
+        <div class="sk reveal"><h4>Models &amp; serving</h4><div class="chips"><span class="chip">vLLM</span><span class="chip">Ollama</span><span class="chip">Transformers</span><span class="chip">PyTorch</span><span class="chip">Unsloth</span><span class="chip">LoRA / QLoRA</span><span class="chip">Quantization</span><span class="chip">Whisper</span><span class="chip">NVIDIA Canary</span></div></div>
+        <div class="sk reveal"><h4>Data &amp; vectors</h4><div class="chips"><span class="chip">pgvector</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Cassandra</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Docling</span><span class="chip">OCR</span></div></div>
+        <div class="sk reveal"><h4>Backend</h4><div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">Celery</span><span class="chip">WebSockets</span><span class="chip">SSE</span><span class="chip">Node.js</span><span class="chip">REST</span></div></div>
+        <div class="sk reveal"><h4>Platform</h4><div class="chips"><span class="chip">Kubernetes</span><span class="chip">Docker</span><span class="chip">GPU / DGX</span><span class="chip">Air-gapped deploys</span><span class="chip">GitLab CI</span><span class="chip">Prometheus</span><span class="chip">Grafana</span></div></div>
+        <div class="sk reveal"><h4>Apps &amp; integrations</h4><div class="chips"><span class="chip">React</span><span class="chip">React Native</span><span class="chip">n8n</span><span class="chip">WhatsApp Business API</span><span class="chip">SIP / VoIP</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>Experience &amp; education</h2></div>
+      <div class="tl">
+        <div class="item reveal"><div class="when">Jun 2022 – present</div><h3>AI/ML Engineer · Netstratum Technologies, Kochi</h3><p>Production LLM, speech and document-AI systems for an enterprise on-prem AI platform and its customers: Echo, the agent engine, RAG, vision, and Kubernetes delivery across 8 environments.</p></div>
+        <div class="item reveal"><div class="when">2018 – 2022</div><h3>B.Tech, Computer Science &amp; Engineering</h3><p>KMEA Engineering College, APJ Abdul Kalam Technological University.</p></div>
+        <div class="item reveal"><div class="when">Languages</div><h3>Arabic (native) · English (fluent)</h3><p>Also Malayalam, Hindi and Urdu.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="contact reveal" id="contact">
+        <div>
+          <h2>Let's build your AI core.</h2>
+          <p>Open to AI engineering roles in the UAE and Saudi Arabia (relocating; visa sponsorship needed) and to remote work. Notice period: 40 days.</p>
+        </div>
+        <div class="cta" style="margin:0">
+          <a class="btn" href="mailto:mohdsalimkt@gmail.com">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/muhammed-salim-k-t-498125165" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="assets/Muhammed_Salim_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Muhammed Salim K T · Kochi, India → UAE / KSA · <a href="https://github.com/salimkt">github.com/salimkt</a></div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-label="Image preview"><img alt=""></div>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  try{var s=localStorage.getItem('theme');if(s)root.setAttribute('data-theme',s)}catch(e){}
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')?root.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+    var next=dark?'light':'dark';root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next)}catch(e){}
+  });
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  var lb=document.getElementById('lb'),li=lb.querySelector('img');
+  document.querySelectorAll('figure img').forEach(function(im){im.addEventListener('click',function(){li.src=im.src;li.alt=im.alt;lb.classList.add('on')})});
+  lb.addEventListener('click',function(){lb.classList.remove('on')});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12}):null;
+  document.querySelectorAll('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('in')});
+})();
+</script>
+</body>
+</html>
