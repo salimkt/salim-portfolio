@@ -4,15 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Muhammed Salim K T · AI/ML Engineer</title>
-<meta name="description" content="AI/ML engineer building production LLM systems: voice AI, multi-agent tool calling, and RAG at 10M+ embeddings. Fluent English; proficient in Arabic.">
+<meta name="description" content="AI/ML engineer (4+ years) building production LLM systems: speech AI for a US telephony provider, a multi-agent engine where a 12B model does 32B-class work, and on-prem RAG over 10M+ embeddings. Kochi, India.">
 <meta property="og:title" content="Muhammed Salim K T · AI/ML Engineer">
-<meta property="og:description" content="Production voice AI, agent engines and RAG.">
+<meta property="og:description" content="Production voice AI, agent engines and RAG: on-prem, air-gapped and measured.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://muhammed-salim.onrender.com/">
 <meta property="og:image" content="https://muhammed-salim.onrender.com/assets/salim.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://muhammed-salim.onrender.com/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='50%' y='56%' text-anchor='middle' font-family='Arial' font-weight='700' font-size='30' fill='white'>MS</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Naskh+Arabic:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Muhammed Salim K T","jobTitle":"AI/ML Engineer","url":"https://muhammed-salim.onrender.com/","email":"mailto:mohdsalimkt@gmail.com","image":"https://muhammed-salim.onrender.com/assets/salim.jpg","worksFor":{"@type":"Organization","name":"Netstratum Technologies"},"alumniOf":{"@type":"CollegeOrUniversity","name":"KMEA Engineering College"},"address":{"@type":"PostalAddress","addressLocality":"Kochi","addressRegion":"Kerala","addressCountry":"IN"},"sameAs":["https://github.com/salimkt","https://www.linkedin.com/in/muhammed-salim-k-t-498125165"],"knowsAbout":["Large language models","Retrieval-augmented generation","Multi-agent systems","Speech recognition","vLLM","Kubernetes"]}
+</script>
 <style>
 :root{
   --bg:#f7f8fa; --surface:#ffffff; --surface-2:#f0f3f6; --text:#0f172a; --muted:#475569; --faint:#94a3b8;
@@ -32,35 +38,34 @@
   --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px rgba(0,0,0,.35);
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
+h1,h2,h3,p,li{overflow-wrap:anywhere}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+@media (max-width:480px){.wrap{padding:0 16px}}
 header.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
 .brand{font-weight:800;letter-spacing:-.02em;color:var(--text)}
 .brand span{color:var(--accent)}
-.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+.nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0}
 .nav ul a{color:var(--muted);font-weight:500;font-size:14.5px}
 .nav ul a:hover{color:var(--text);text-decoration:none}
-.theme{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:10px;width:36px;height:36px;cursor:pointer;font-size:16px}
-@media (max-width:760px){.nav ul{display:none}}
+.theme{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:10px;width:36px;height:36px;cursor:pointer;font-size:16px;flex:none}
+@media (max-width:900px){.nav ul{display:none}}
 
-.hero{padding-top:72px;padding-bottom:56px}
-@media (max-width:760px){.hero{padding-top:48px}.sec-h{flex-direction:column;align-items:flex-start;gap:6px}.flag-top,.flag-grid{padding-left:18px;padding-right:18px}.contact{padding:26px}}
-body{overflow-x:hidden}
-h1,p,li{overflow-wrap:anywhere}
+.hero{padding-top:64px;padding-bottom:56px}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:6px 12px;border-radius:999px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 25%,transparent)}
-h1{font-size:clamp(36px,6vw,60px);line-height:1.05;letter-spacing:-.035em;margin:18px 0 14px;font-weight:800}
+h1{font-size:clamp(34px,6vw,58px);line-height:1.06;letter-spacing:-.035em;margin:18px 0 14px;font-weight:800}
 h1 .grad{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .lede{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:760px;margin:0}
-.arabic{font-family:"Noto Naskh Arabic",serif;font-size:19px;color:var(--muted);margin:14px 0 0;direction:rtl;text-align:left}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:12px;font-weight:600;font-size:15px;border:1px solid var(--line);background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
 .btn:hover{text-decoration:none;border-color:var(--accent)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.sm{padding:7px 12px;font-size:13.5px;border-radius:10px;box-shadow:none}
 :root[data-theme="dark"] .btn.primary{color:#04201d}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.primary{color:#04201d}}
 .hero-grid{display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:center}
@@ -76,16 +81,28 @@ h1 .grad{background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit
 
 section{padding:56px 0;border-top:1px solid var(--line)}
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:22px}
+@media (max-width:760px){.sec-h{flex-direction:column;align-items:flex-start;gap:6px}}
 h2{font-size:clamp(26px,3.4vw,34px);letter-spacing:-.025em;margin:0}
-.sec-h p{color:var(--muted);margin:0;max-width:520px}
+.sec-h p{color:var(--muted);margin:0;max-width:540px}
 h3{font-size:20px;letter-spacing:-.015em;margin:0 0 6px}
+
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:32px}
+@media (max-width:860px){.about{grid-template-columns:1fr}}
+.about p{color:var(--muted);margin:0 0 14px}
+.about p b{color:var(--text)}
+.facts{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:8px 20px;box-shadow:var(--shadow);margin:0}
+.facts div{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.facts div:last-child{border-bottom:0}
+.facts dt{color:var(--faint);font-weight:600}
+.facts dd{margin:0;color:var(--text)}
 
 .flag{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
 .flag-top{padding:28px 28px 8px}
 .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
 .flag-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;padding:0 28px 28px}
 @media (max-width:860px){.flag-grid{grid-template-columns:1fr}}
-.flag figure{margin:0;background:#fff;border-radius:14px;border:1px solid var(--line);overflow:hidden}
+@media (max-width:760px){.flag-top,.flag-grid{padding-left:18px;padding-right:18px}}
+.flag figure{margin:0;background:#fff;border-radius:14px;border:1px solid var(--line);overflow:hidden;align-self:start}
 figure img{display:block;width:100%;height:auto;cursor:zoom-in}
 figcaption{font-size:13px;color:var(--faint);padding:8px 12px;background:var(--surface-2)}
 ul.points{margin:0;padding-left:18px}
@@ -99,8 +116,27 @@ ul.points li b{color:var(--text)}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .card .metric{font-size:14px;font-weight:600;color:var(--accent);margin:2px 0 10px}
 .card p{color:var(--muted);margin:0 0 6px}
+.card ul.points{margin:4px 0 0}
 .card figure{margin:14px 0 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
 .card .chips{margin-top:auto;padding-top:14px}
+
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:28px;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:var(--shadow);margin-bottom:22px}
+.proj:nth-child(even) figure{order:-1}
+@media (max-width:860px){.proj{grid-template-columns:1fr;padding:20px}.proj:nth-child(even) figure{order:0}}
+.proj figure{margin:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;align-self:start}
+.proj p{color:var(--muted);margin:0 0 10px}
+.proj .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.kv{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 4px}
+.kv div{background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.kv b{display:block;font-size:19px;letter-spacing:-.02em}
+.kv span{font-size:12.5px;color:var(--muted)}
+.evals{width:100%;border-collapse:collapse;font-size:14px}
+.evals td{padding:9px 12px;border-bottom:1px solid var(--line)}
+.evals td:last-child{text-align:right;font-family:"JetBrains Mono",monospace;color:var(--text)}
+.evals tr:last-child td{border-bottom:0}
+.evals td:first-child{color:var(--muted)}
+.evalbox{border:1px solid var(--line);border-radius:14px;background:var(--surface-2);align-self:start;overflow:hidden}
+.evalbox .cap{font-size:13px;color:var(--faint);padding:10px 12px;border-top:1px solid var(--line)}
 
 .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 @media (max-width:860px){.principles{grid-template-columns:1fr}}
@@ -108,19 +144,25 @@ ul.points li b{color:var(--text)}
 .pr .n{font:600 13px "JetBrains Mono",monospace;color:var(--accent)}
 .pr p{color:var(--muted);margin:6px 0 0}
 
-.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 @media (max-width:860px){.skills{grid-template-columns:1fr}}
 .sk h4{margin:0 0 10px;font-size:15px}
+.sk .chips{margin-top:0}
 
 .tl{position:relative;margin-left:8px;padding-left:22px;border-left:2px solid var(--line)}
-.tl .item{position:relative;margin-bottom:22px}
+.tl .item{position:relative;margin-bottom:26px}
 .tl .item::before{content:"";position:absolute;left:-30px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--surface);border:3px solid var(--accent)}
 .tl .when{font-size:13px;color:var(--faint);font-weight:600}
 .tl p{color:var(--muted);margin:4px 0 0}
+.tl ul.points{margin-top:8px}
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:10px}
+@media (max-width:860px){.edu{grid-template-columns:1fr}}
+.edu .pr h3{font-size:17px}
 
 .contact{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;border-radius:24px;padding:36px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+@media (max-width:760px){.contact{padding:26px}}
 .contact h2{color:#fff}
-.contact p{margin:6px 0 0;opacity:.9}
+.contact p{margin:6px 0 0;opacity:.92}
 .contact .btn{background:#fff;color:#0f172a;border-color:#fff}
 footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
 
@@ -130,6 +172,7 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
 .reveal{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media print{header.nav,.theme,.lb{display:none}.reveal{opacity:1;transform:none}section{break-inside:avoid}}
 </style>
 </head>
 <body>
@@ -137,9 +180,10 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
   <div class="wrap">
     <a class="brand" href="#top">Muhammed Salim<span>.</span></a>
     <ul>
+      <li><a href="#about">About</a></li>
       <li><a href="#echo">Echo</a></li>
       <li><a href="#work">Work</a></li>
-      <li><a href="#approach">Approach</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -150,7 +194,9 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
 
 <main id="top">
   <div class="wrap hero">
-    <div class="hero-grid"><div><h1>I build <span class="grad">production AI systems</span> where the model is the product.</h1>
+    <div class="hero-grid"><div>
+    <span class="eyebrow"><span class="dot"></span>Open to AI engineering roles · remote or relocation</span>
+    <h1>I build <span class="grad">production AI systems</span> where the model is the product.</h1>
     <p class="lede">AI/ML engineer with 4+ years shipping LLM systems to real users: a speech-AI service for a US telephony provider, the multi-agent engine that lets a 12B model do 32B-class work, and RAG over 10M+ embeddings, often on-prem and air-gapped.</p>
     <div class="cta">
       <a class="btn primary" href="assets/Muhammed_Salim_CV.pdf" target="_blank" rel="noopener">Download CV</a>
@@ -161,12 +207,33 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
     </div>
     <figure class="portrait"><img src="assets/salim.jpg" alt="Portrait of Muhammed Salim K T" width="490" height="612"></figure></div>
     <div class="stats">
-      <div class="stat"><b>12B → 32B</b><span>class work from a smaller model</span></div>
-      <div class="stat"><b>10M+</b><span>embeddings in production RAG</span></div>
-      <div class="stat"><b>50k+</b><span>concurrent users on live captions</span></div>
-      <div class="stat"><b>8</b><span>Kubernetes environments incl. GPU/DGX</span></div>
+      <div class="stat"><b>12B → 32B</b><span>class work from a smaller model, GPU cluster to one node</span></div>
+      <div class="stat"><b>10M+</b><span>embeddings in production RAG, 10k+ queries/day</span></div>
+      <div class="stat"><b>50k+</b><span>concurrent users on real-time speech services</span></div>
+      <div class="stat"><b>8</b><span>Kubernetes environments incl. two GPU/DGX clusters</span></div>
     </div>
   </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>About</h2><p>An engineer who ships models into other people's infrastructure and keeps them running.</p></div>
+      <div class="about">
+        <div class="reveal">
+          <p>I'm an AI/ML engineer at <b>Netstratum Technologies</b> in Kochi, where I've spent my whole career so far (since June 2022) on production LLM systems. I build the parts that decide whether an AI product actually works: orchestration, retrieval, speech pipelines, model serving and the Kubernetes delivery underneath them.</p>
+          <p>Most of what I ship runs <b>on-premise and air-gapped</b> inside enterprise customers' own infrastructure. It goes through their security reviews and is built to HIPAA-style controls (encryption, RBAC, audit logging), so no customer data leaves their environment. That constraint shaped how I work: small models first, strict schemas, failover everywhere, and evals that gate every release.</p>
+          <p>Outside work I build full products end to end to test ideas quickly. Recent ones are an AI data analyst (<a href="#datarat">DataRat</a>), a WebGPU home-design and costing platform (<a href="#threex">3xDezine</a>), and an open reference implementation of reliable small-model agents (<a href="#sma">small-model-agents</a>).</p>
+        </div>
+        <dl class="facts reveal">
+          <div><dt>Role</dt><dd>AI/ML Engineer &amp; Full-Stack Developer</dd></div>
+          <div><dt>Experience</dt><dd>4+ years, all on production AI</dd></div>
+          <div><dt>Based in</dt><dd>Kochi (Ernakulam), Kerala, India</dd></div>
+          <div><dt>Open to</dt><dd>Remote · relocation within India · international with sponsorship</dd></div>
+          <div><dt>Education</dt><dd>B.Tech CSE, KMEA Engineering College (2022)</dd></div>
+          <div><dt>Languages</dt><dd>English (fluent), Malayalam (native), Hindi, Urdu, Arabic (proficient)</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
 
   <section id="echo">
     <div class="wrap">
@@ -197,54 +264,137 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
 
   <section id="work">
     <div class="wrap">
-      <div class="sec-h reveal"><h2>Selected work</h2><p>Everything here runs in production or is public on GitHub.</p></div>
+      <div class="sec-h reveal"><h2>Production work</h2><p>Systems I built at Netstratum for the BlueMesh enterprise AI platform and its customers.</p></div>
       <div class="cards">
         <article class="card reveal">
           <span class="tag">Agents</span>
-          <h3>Multi-agent tool-calling engine</h3>
+          <h3>bm-agent-engine: multi-agent tool calling</h3>
           <div class="metric">Replaced CrewAI · 12B model doing 32B-class work · GPU cluster → single node</div>
-          <p>I wrote the engine behind an enterprise on-prem LLM platform (~49k lines, largest contributor): a 73-toolset registry with schema-validated tool calls, ReAct with tiered escalation, structured delegate / ask / finish steps, a FAST/SMALL/LARGE/THINKING model router over vLLM and Ollama, SSE event streaming and Redis-backed admission control.</p>
+          <p>I wrote the proprietary engine that now serves all agent traffic on BlueMesh, as a drop-in replacement for the CrewAI-based orchestration. I was the largest contributor to its ~49k lines.</p>
+          <ul class="points">
+            <li><b>73 toolsets</b> behind a registry and manifest system (GitLab, SharePoint / MS Graph, AWS, Azure, BigQuery, Jira, Snowflake, Kafka, Playwright and more), degrading gracefully when a driver is missing.</li>
+            <li>ReAct with tiered escalation, structured delegate / ask / finish steps, and a FAST / SMALL / LARGE / THINKING router over vLLM, Ollama or any OpenAI-compatible endpoint.</li>
+            <li>Kept the live SSE event contract exactly, so the UI cut over with a single config change. Redis-backed concurrency leases handle admission control.</li>
+          </ul>
           <figure><img src="assets/agent-engine-architecture.png" alt="Agent engine layers: clients, admission and routing, orchestrator, tools, model router, quality" loading="lazy"></figure>
-          <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">vLLM</span><span class="chip">Ollama</span><span class="chip">Redis</span><span class="chip">Kubernetes</span></div>
+          <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">vLLM</span><span class="chip">Ollama</span><span class="chip">Redis</span><span class="chip">SSE</span><span class="chip">Kubernetes</span></div>
         </article>
         <article class="card reveal">
           <span class="tag">Retrieval</span>
-          <h3>Enterprise RAG platform</h3>
-          <div class="metric">10M+ embeddings · 10,000+ queries/day · on-prem &amp; air-gapped</div>
-          <p>Ingestion with Docling for layout-aware parsing (PDFs, DOCX, tables, figures) and RapidOCR / PaddleOCR-VL / Qwen-VL for scanned documents; structure-aware chunking; hybrid dense + keyword retrieval with re-ranking. Runs on Cassandra Vector, pgvector, Qdrant and FAISS across 8 Kubernetes environments, built to HIPAA-style controls.</p>
-          <div class="chips"><span class="chip">Docling</span><span class="chip">RapidOCR</span><span class="chip">pgvector</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Sentence-Transformers</span></div>
+          <h3>BlueMesh enterprise RAG</h3>
+          <div class="metric">10M+ embeddings · 10,000+ queries/day · sub-2 s responses · 99.7% uptime</div>
+          <p>An on-premise enterprise chat platform where no customer data leaves the customer's infrastructure. I designed its retrieval pipeline end to end.</p>
+          <ul class="points">
+            <li>Layout-aware ingestion with Docling plus RapidOCR, structure-aware chunking, Sentence-Transformers embeddings and a Cassandra vector schema tuned for similarity search.</li>
+            <li>Hybrid keyword + semantic retrieval with re-ranking: <b>+45% answer accuracy</b> over the bare LLM baseline.</li>
+            <li>FAISS semantic search cut retrieval time by <b>70%</b>. Quantization, batching and caching brought average inference down to <b>1.8 s</b>.</li>
+            <li>An LLM response-quality evaluation framework gates every release.</li>
+          </ul>
+          <div class="chips"><span class="chip">Docling</span><span class="chip">Cassandra Vector</span><span class="chip">pgvector</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Sentence-Transformers</span></div>
         </article>
         <article class="card reveal">
-          <span class="tag">Speech &amp; Vision</span>
-          <h3>Live captions and document AI</h3>
-          <div class="metric">92% caption accuracy · 50,000+ concurrent WebSocket users</div>
-          <p>Whisper speech-to-text and Tacotron2 text-to-speech shipped into a video-calling product. Document AI with PaddleOCR-VL and Qwen-VL served via Transformers, LayoutLMv3 fine-tuning and multiple OCR engines feeding the RAG pipeline.</p>
-          <div class="chips"><span class="chip">Whisper</span><span class="chip">Tacotron2</span><span class="chip">WebSockets</span><span class="chip">PaddleOCR-VL</span><span class="chip">Qwen-VL</span><span class="chip">LayoutLMv3</span></div>
+          <span class="tag">Speech &amp; real-time</span>
+          <h3>Live captions and voice</h3>
+          <div class="metric">94% transcription accuracy · 92% live captions · 50,000+ concurrent users</div>
+          <p>I built the speech stack (Whisper STT, Tacotron2 TTS) and shipped live captioning into a production video-calling product. The real-time side is WebSocket and REST services (FastAPI, Node.js) with event-driven inference workers on RabbitMQ and Kafka.</p>
+          <p>I also shipped on-device background blur with MediaPipe Tasks and a quantized TFLite face detector, keeping mobile inference under <b style="color:var(--text)">30 ms</b>.</p>
+          <div class="chips"><span class="chip">Whisper</span><span class="chip">Tacotron2</span><span class="chip">WebSockets</span><span class="chip">RabbitMQ</span><span class="chip">Kafka</span><span class="chip">MediaPipe</span><span class="chip">TFLite</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Vision &amp; documents</span>
+          <h3>BlueMesh Vision and document AI</h3>
+          <div class="metric">Vision-language models in production · pluggable OCR into RAG</div>
+          <p>I own a FastAPI service that serves PaddleOCR-VL and Qwen-VL through Transformers, with CUDA device handling and attention-implementation tuning for throughput. It also has image analysis, generation, editing and avatar endpoints.</p>
+          <p>EasyOCR, RapidOCR and PP-OCRv4 ONNX sit behind one interface. Per-document figure understanding turns charts and diagrams into retrievable text. I also fine-tuned LayoutLMv3 for invoice and contract extraction, reaching <b style="color:var(--text)">91% F1</b> on 100K+ documents a month.</p>
+          <div class="chips"><span class="chip">PaddleOCR-VL</span><span class="chip">Qwen-VL</span><span class="chip">Transformers</span><span class="chip">LayoutLMv3</span><span class="chip">ONNX</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Platform &amp; reliability</span>
+          <h3>Kubernetes delivery and MLOps</h3>
+          <div class="metric">8 environments · 2 GPU/DGX clusters · 5M+ log events/day analysed</div>
+          <p>I'm the leading contributor to a Kustomize-layered manifest tree (config → data → apps → edge) covering the RAG service, agent engine, workflow orchestrator and search, with cert-manager TLS and edge routing. Services also run on GCP Cloud Run with autoscaling, and GitLab CI handles model testing and release.</p>
+          <p>I designed <b style="color:var(--text)">DebugTrail</b>, ML-assisted log analysis using Isolation Forest and LSTM anomaly detection over Grafana LogQL. It cut time to detection by 60% and false positives by 70%. I also built a streaming moderation pipeline (distilled BERT, 50 ms over Kafka) that cut inappropriate content by 85%.</p>
+          <div class="chips"><span class="chip">Kubernetes</span><span class="chip">Kustomize</span><span class="chip">GPU / DGX</span><span class="chip">GitLab CI</span><span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">Cloud Run</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">Enterprise delivery</span>
+          <h3>Customer products and regulated deployments</h3>
+          <div class="metric">OfficeSuite Live for Windstream · NCS: 50,000+ downloads</div>
+          <p>I built <b style="color:var(--text)">OfficeSuite Live</b>, a video-conferencing product, for Windstream Enterprise as a named external client. I also shipped <b style="color:var(--text)">NCS</b>, an enterprise VCaaS platform with 50,000+ downloads across both app stores.</p>
+          <p>I took the AI platform through customers' security reviews: encryption at rest and in transit, RBAC, audit logging, HIPAA frameworks, and multi-tenant rollouts with tenant-aware routing.</p>
+          <div class="chips"><span class="chip">React Native</span><span class="chip">React</span><span class="chip">SIP / VoIP</span><span class="chip">RBAC</span><span class="chip">HIPAA</span></div>
         </article>
         <article class="card reveal">
           <span class="tag">Arabic AI</span>
           <h3>Arabic LLM fine-tuning</h3>
-          <div class="metric">Arabic-language models · LoRA / QLoRA</div>
-          <p>LoRA / QLoRA fine-tuning of open models for Arabic with Unsloth and PEFT, plus Arabic-aware retrieval (normalisation and hybrid search). I am proficient in reading and understanding Arabic, which helps when checking model output for Gulf products.</p>
-          <div class="chips"><span class="chip">Unsloth</span><span class="chip">LoRA</span><span class="chip">PEFT</span><span class="chip">Hugging Face</span></div>
+          <div class="metric">LoRA / QLoRA · Arabic-aware retrieval</div>
+          <p>I fine-tuned open models for Arabic with Unsloth and PEFT, and built Arabic-aware retrieval (normalisation and hybrid search). I also fine-tuned BERT, T5 and GPT-family models for classification, NER and generation. I read and understand Arabic well, which helps when checking model output for Gulf products.</p>
+          <div class="chips"><span class="chip">Unsloth</span><span class="chip">LoRA</span><span class="chip">QLoRA</span><span class="chip">PEFT</span><span class="chip">Hugging Face</span></div>
         </article>
         <article class="card reveal">
           <span class="tag">Automation</span>
           <h3>AI ticket triage with human approval (n8n)</h3>
           <div class="metric">LLM drafts · coded guardrails decide · a human approves risky cases</div>
-          <p>A webhook takes a customer ticket; an LLM classifies it and drafts a reply as structured JSON; deterministic rules route refunds, warranty, low-confidence or high-value cases to an Approve / Edit / Reject form. Tested on 8 scenarios including Arabic and a prompt-injection attempt.</p>
+          <p>A webhook takes a customer ticket, and an LLM classifies it and drafts a reply as structured JSON. Deterministic rules send refunds, warranty claims, low-confidence and high-value cases to an Approve / Edit / Reject form. I tested it on 8 scenarios, including Arabic and a prompt-injection attempt.</p>
           <figure><img src="assets/n8n-triage-workflow.png" alt="n8n workflow from webhook through LLM classification and guardrails to auto-reply or human approval" loading="lazy"></figure>
           <div class="chips"><span class="chip">n8n</span><span class="chip">OpenAI</span><span class="chip">Structured outputs</span><span class="chip">Human-in-the-loop</span></div>
         </article>
-        <article class="card reveal">
-          <span class="tag">Open source</span>
-          <h3>small-model-agents</h3>
-          <div class="metric">Agent evaluation harness · CI regression gate · MCP server</div>
-          <p>Public work on making small models reliable agents: an evaluation harness with a CI gate that blocks regressions, plus a published Model Context Protocol server (stdio JSON-RPC).</p>
-          <p><a href="https://github.com/salimkt/small-model-agents" target="_blank" rel="noopener">github.com/salimkt/small-model-agents →</a></p>
-          <div class="chips"><span class="chip">Evals</span><span class="chip">MCP</span><span class="chip">GitHub Actions</span></div>
-        </article>
       </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>Independent projects</h2><p>Products I designed and built end to end, all public on GitHub, two with live demos.</p></div>
+
+      <article class="proj reveal" id="datarat">
+        <div>
+          <span class="tag">AI analytics · live demo</span>
+          <h3>DataRat: ask your data anything</h3>
+          <p>Connect a data source and get KPIs, anomalies and forecasts immediately. Ask a question in plain English and a <b style="color:var(--text)">Planner → SQL Engineer → Analyst → Narrator</b> agent pipeline answers with SQL, a chart and an executive summary. The SQL step retries with the error fed back.</p>
+          <p>The LLM is optional: Gemini or Claude output is checked against a schema, and a deterministic rules engine takes over when there's no key or the model fails. A read-only SQL guard, DuckDB file-access lockdown and private-network blocking keep it safe.</p>
+          <div class="kv"><div><b>11</b><span>data connectors</span></div><div><b>4</b><span>cooperating agents</span></div><div><b>114</b><span>backend tests</span></div></div>
+          <div class="chips"><span class="chip">FastAPI</span><span class="chip">DuckDB</span><span class="chip">statsmodels</span><span class="chip">Claude</span><span class="chip">Gemini</span><span class="chip">React</span><span class="chip">Recharts</span></div>
+          <div class="links"><a class="btn sm primary" href="https://salimkt.github.io/DataRat/" target="_blank" rel="noopener">Live demo</a><a class="btn sm" href="https://datarat-api.onrender.com/docs" target="_blank" rel="noopener">API docs</a><a class="btn sm" href="https://github.com/salimkt/DataRat" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+        <figure><img src="assets/datarat-overview.jpg" alt="DataRat executive dashboard with KPI tiles, anomaly flags and a forecast chart" loading="lazy" width="1400" height="972"><figcaption>Executive overview: KPIs, anomalies and Holt-Winters forecasts</figcaption></figure>
+      </article>
+
+      <article class="proj reveal" id="threex">
+        <div>
+          <span class="tag">WebGPU · full stack · Android</span>
+          <h3>3xDezine: design a home, see it in 3D, know what it costs</h3>
+          <p>Draw a 2D floor plan, walk through it in photorealistic <b style="color:var(--text)">WebGPU</b> 3D (three.js r186 with SSGI, SSR, GTAO and TRAA), apply real materials, and get a live INR cost plus a GST-ready quotation.</p>
+          <p>Shared pure engines run on every edit and again on the server: surface costing with wastage and pack rounding, plan rules against the National Building Code 2016, and integer-paise quotations with GST by place of supply. The project includes a Fastify + Drizzle API with OpenAPI 3.1, Supabase with row-level security and 25 edge functions, Razorpay billing with idempotent HMAC-verified webhooks, and a native Kotlin / Compose client.</p>
+          <div class="kv"><div><b>300+</b><span>TypeScript tests</span></div><div><b>136</b><span>pgTAP DB assertions</span></div><div><b>3</b><span>clients: web, API, Android</span></div></div>
+          <div class="chips"><span class="chip">React 19</span><span class="chip">three.js WebGPU</span><span class="chip">Fastify</span><span class="chip">PostgreSQL</span><span class="chip">Supabase</span><span class="chip">Razorpay</span><span class="chip">Kotlin</span></div>
+          <div class="links"><a class="btn sm primary" href="https://salimkt.github.io/3xdezine/" target="_blank" rel="noopener">Live demo</a><a class="btn sm" href="https://github.com/salimkt/3xdezine" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+        <figure><img src="assets/3xdezine-studio.jpg" alt="3xDezine studio with 2D plan editor, WebGPU 3D view and live cost estimate" loading="lazy" width="1400" height="875"><figcaption>Studio: plan editor, WebGPU 3D view and live estimate</figcaption></figure>
+      </article>
+
+      <article class="proj reveal" id="sma">
+        <div>
+          <span class="tag">Open source · agents · evals</span>
+          <h3>small-model-agents</h3>
+          <p>A dependency-free Python reference implementation of the ideas behind my production orchestrator: <b style="color:var(--text)">give the model less to decide</b>. Every call is a narrow, schema-validated decision, and a violation is quoted back and retried. Requests route across FAST / SMALL / LARGE / THINKING tiers and escalate only on measurable evidence.</p>
+          <p>It works with any OpenAI-compatible server (vLLM, Ollama, llama.cpp) and ships an MCP server (stdio JSON-RPC) over the same tool registry. A mechanical eval harness with a seeded simulated model runs in CI and fails the build if any metric regresses, and there's a test that proves the gate can fail.</p>
+          <div class="chips"><span class="chip">Python</span><span class="chip">MCP</span><span class="chip">Evals</span><span class="chip">GitHub Actions</span><span class="chip">OpenAI-compatible</span></div>
+          <div class="links"><a class="btn sm primary" href="https://github.com/salimkt/small-model-agents" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+        <div class="evalbox">
+          <table class="evals" aria-label="Committed eval baseline">
+            <tr><td>Tasks (graded mechanically)</td><td>12</td></tr>
+            <tr><td>Pass rate</td><td>1.00</td></tr>
+            <tr><td>Escalation rate</td><td>0.037</td></tr>
+            <tr><td>Schema-violation rate</td><td>0.185</td></tr>
+            <tr><td>Mean model calls</td><td>2.25</td></tr>
+            <tr><td>Tool precision</td><td>0.923</td></tr>
+          </table>
+          <div class="cap">Committed CI baseline (simulated model, seed 7). CI blocks any regression beyond tolerance.</div>
+        </div>
+      </article>
+      <p class="reveal" style="color:var(--muted);margin:0">Also on GitHub: <a href="https://salimkt.github.io/web-share/" target="_blank" rel="noopener">web-share</a>, a peer-to-peer WebRTC file-sharing PWA with encrypted MQTT signalling or offline QR pairing, and <a href="https://github.com/salimkt?tab=repositories" target="_blank" rel="noopener">85+ more repositories →</a></p>
     </div>
   </section>
 
@@ -261,25 +411,41 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
 
   <section id="skills">
     <div class="wrap">
-      <div class="sec-h reveal"><h2>Skills</h2><p>Hands-on, in production unless noted.</p></div>
+      <div class="sec-h reveal"><h2>Skills</h2><p>Hands-on and used in production unless noted.</p></div>
       <div class="skills">
-        <div class="sk reveal"><h4>LLMs, agents &amp; RAG</h4><div class="chips"><span class="chip">Tool calling</span><span class="chip">Multi-agent</span><span class="chip">CrewAI</span><span class="chip">LangChain</span><span class="chip">LlamaIndex</span><span class="chip">MCP</span><span class="chip">Hybrid search</span><span class="chip">Re-ranking</span><span class="chip">Evals</span><span class="chip">Prompt engineering</span></div></div>
-        <div class="sk reveal"><h4>Models &amp; serving</h4><div class="chips"><span class="chip">vLLM</span><span class="chip">Ollama</span><span class="chip">Transformers</span><span class="chip">PyTorch</span><span class="chip">Unsloth</span><span class="chip">LoRA / QLoRA</span><span class="chip">Quantization</span><span class="chip">Whisper</span><span class="chip">NVIDIA Canary</span></div></div>
-        <div class="sk reveal"><h4>Data &amp; vectors</h4><div class="chips"><span class="chip">pgvector</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Cassandra</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Docling</span><span class="chip">OCR</span></div></div>
-        <div class="sk reveal"><h4>Backend</h4><div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">Celery</span><span class="chip">WebSockets</span><span class="chip">SSE</span><span class="chip">Node.js</span><span class="chip">REST</span></div></div>
-        <div class="sk reveal"><h4>Platform</h4><div class="chips"><span class="chip">Kubernetes</span><span class="chip">Docker</span><span class="chip">GPU / DGX</span><span class="chip">Air-gapped deploys</span><span class="chip">GitLab CI</span><span class="chip">Prometheus</span><span class="chip">Grafana</span></div></div>
-        <div class="sk reveal"><h4>Apps &amp; integrations</h4><div class="chips"><span class="chip">React</span><span class="chip">React Native</span><span class="chip">n8n</span><span class="chip">WhatsApp Business API</span><span class="chip">SIP / VoIP</span></div></div>
+        <div class="sk reveal"><h4>Agentic systems</h4><div class="chips"><span class="chip">Multi-agent orchestration</span><span class="chip">Tool calling</span><span class="chip">ReAct + escalation</span><span class="chip">Model routing</span><span class="chip">MCP</span><span class="chip">CrewAI</span><span class="chip">LangChain</span><span class="chip">SSE streaming</span></div></div>
+        <div class="sk reveal"><h4>LLMs &amp; RAG</h4><div class="chips"><span class="chip">RAG design</span><span class="chip">Hybrid search</span><span class="chip">Re-ranking</span><span class="chip">LlamaIndex</span><span class="chip">Evals &amp; regression gates</span><span class="chip">Prompt engineering</span><span class="chip">Unsloth</span><span class="chip">LoRA / QLoRA</span><span class="chip">Quantization</span></div></div>
+        <div class="sk reveal"><h4>Model serving</h4><div class="chips"><span class="chip">vLLM</span><span class="chip">Ollama</span><span class="chip">Transformers</span><span class="chip">PyTorch</span><span class="chip">On-prem / air-gapped</span><span class="chip">Failover tiers</span><span class="chip">Batching &amp; caching</span></div></div>
+        <div class="sk reveal"><h4>Speech &amp; vision</h4><div class="chips"><span class="chip">NVIDIA Canary</span><span class="chip">Whisper</span><span class="chip">Diarization</span><span class="chip">SpeechBrain</span><span class="chip">Tacotron2</span><span class="chip">PaddleOCR-VL</span><span class="chip">Qwen-VL</span><span class="chip">LayoutLMv3</span><span class="chip">MediaPipe</span></div></div>
+        <div class="sk reveal"><h4>Data &amp; vectors</h4><div class="chips"><span class="chip">Cassandra Vector</span><span class="chip">pgvector</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Pinecone</span><span class="chip">PostgreSQL</span><span class="chip">DuckDB</span><span class="chip">MongoDB</span><span class="chip">Redis</span></div></div>
+        <div class="sk reveal"><h4>Backend</h4><div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">Flask</span><span class="chip">Celery</span><span class="chip">RabbitMQ</span><span class="chip">Kafka</span><span class="chip">WebSockets</span><span class="chip">Node.js</span><span class="chip">Fastify</span></div></div>
+        <div class="sk reveal"><h4>Platform</h4><div class="chips"><span class="chip">Kubernetes</span><span class="chip">Kustomize</span><span class="chip">Docker</span><span class="chip">GPU / DGX</span><span class="chip">GCP Cloud Run</span><span class="chip">Vertex AI</span><span class="chip">GitLab CI</span><span class="chip">GitHub Actions</span><span class="chip">Prometheus</span><span class="chip">Grafana</span></div></div>
+        <div class="sk reveal"><h4>Frontend &amp; mobile</h4><div class="chips"><span class="chip">TypeScript</span><span class="chip">React</span><span class="chip">React Native</span><span class="chip">three.js / WebGPU</span><span class="chip">Kotlin / Compose</span></div></div>
+        <div class="sk reveal"><h4>Integrations</h4><div class="chips"><span class="chip">n8n</span><span class="chip">Supabase</span><span class="chip">Razorpay</span><span class="chip">WhatsApp Business API</span><span class="chip">SIP / VoIP</span><span class="chip">MS Graph</span></div></div>
       </div>
     </div>
   </section>
 
   <section id="experience">
     <div class="wrap">
-      <div class="sec-h reveal"><h2>Experience &amp; education</h2></div>
+      <div class="sec-h reveal"><h2>Experience</h2></div>
       <div class="tl">
-        <div class="item reveal"><div class="when">Jun 2022 – present</div><h3>AI/ML Engineer · Netstratum Technologies, Kochi</h3><p>Production LLM, speech and document-AI systems for an enterprise on-prem AI platform and its customers: Echo, the agent engine, RAG, vision, and Kubernetes delivery across 8 environments.</p></div>
-        <div class="item reveal"><div class="when">2018 – 2022</div><h3>B.Tech, Computer Science &amp; Engineering</h3><p>KMEA Engineering College, APJ Abdul Kalam Technological University.</p></div>
-        <div class="item reveal"><div class="when">Languages</div><h3>English (fluent) · Malayalam (native)</h3><p>Also Hindi and Urdu; proficient in Arabic (reading, comprehension and writing).</p></div>
+        <div class="item reveal"><div class="when">Jun 2022 – present · Ernakulam, Kerala</div><h3>AI/ML Engineer &amp; Full-Stack Developer · Netstratum Technologies</h3>
+          <p>Production LLM, speech and document-AI systems for the BlueMesh on-prem AI platform and its enterprise customers.</p>
+          <ul class="points">
+            <li>Built <b>Echo</b>, speech AI for a US hosted-telephony provider (Canary + Whisper on vLLM, failover, diarization, LLM summaries).</li>
+            <li>Authored <b>bm-agent-engine</b>, which replaced CrewAI and let a 12B model do 32B-class work on a single node.</li>
+            <li>Designed BlueMesh RAG over 10M+ embeddings at 10k+ queries/day, with +45% accuracy, 1.8 s latency and 99.7% uptime.</li>
+            <li>Own Kubernetes delivery across 8 environments, including two GPU/DGX clusters, and air-gapped customer installs.</li>
+            <li>Shipped speech, live captions and VCaaS products (OfficeSuite Live for Windstream; NCS with 50k+ downloads).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sec-h reveal" style="margin-top:40px"><h2>Education &amp; certifications</h2></div>
+      <div class="edu">
+        <div class="pr reveal"><div class="n">2018 – 2022</div><h3>B.Tech, Computer Science &amp; Engineering</h3><p>KMEA Engineering College, Aluva (APJ Abdul Kalam Technological University) · CGPA 7.53 / 10</p></div>
+        <div class="pr reveal"><div class="n">Certifications</div><h3>Cloud, deep learning &amp; RPA</h3><p>Architecting with Google Compute Engine (Google Cloud, 6 courses) · Fundamentals of Deep Learning (NVIDIA DLI) · Robotic Process Automation (UiPath)</p></div>
+        <div class="pr reveal"><div class="n">Languages</div><h3>Five, plus Arabic</h3><p>English (fluent) · Malayalam (native) · Hindi · Urdu · Arabic (proficient: reading, comprehension and writing)</p></div>
       </div>
     </div>
   </section>
@@ -289,7 +455,7 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
       <div class="contact reveal" id="contact">
         <div>
           <h2>Let's build your AI core.</h2>
-          <p>Happy to talk about AI engineering roles, consulting and collaborations.</p>
+          <p>Open to AI engineering roles: remote, relocation within India, or international with sponsorship.</p>
         </div>
         <div class="cta" style="margin:0">
           <a class="btn" href="mailto:mohdsalimkt@gmail.com">Email me</a>
@@ -319,7 +485,7 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
   document.querySelectorAll('figure img').forEach(function(im){im.addEventListener('click',function(){li.src=im.src;li.alt=im.alt;lb.classList.add('on')})});
   lb.addEventListener('click',function(){lb.classList.remove('on')});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
-  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12}):null;
+  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.08}):null;
   document.querySelectorAll('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('in')});
 })();
 </script>
