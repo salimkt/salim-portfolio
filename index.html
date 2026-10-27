@@ -184,6 +184,7 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
       <li><a href="#echo">Echo</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#oss">Open source</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -395,6 +396,42 @@ footer{padding:28px 0 48px;color:var(--faint);font-size:14px}
         </div>
       </article>
       <p class="reveal" style="color:var(--muted);margin:0">Also on GitHub: <a href="https://salimkt.github.io/web-share/" target="_blank" rel="noopener">web-share</a>, a peer-to-peer WebRTC file-sharing PWA with encrypted MQTT signalling or offline QR pairing, and <a href="https://github.com/salimkt?tab=repositories" target="_blank" rel="noopener">85+ more repositories →</a></p>
+    </div>
+  </section>
+
+  <section id="oss">
+    <div class="wrap">
+      <div class="sec-h reveal"><h2>Open-source contributions</h2><p>Fixes upstream in the tools I run in production.</p></div>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="tag">Celery · 29k★</span>
+          <h3>Log when a prefork worker is recycled</h3>
+          <p>Workers restarted by <code>--max-tasks-per-child</code> were only logged at DEBUG. I added an INFO log with the pid and limit, a unit test and docs.</p>
+          <p><a href="https://github.com/celery/celery/pull/10968" target="_blank" rel="noopener">celery/celery#10968 →</a></p>
+          <div class="chips"><span class="chip">Python</span><span class="chip">Celery</span><span class="chip">In review</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">PaddleOCR · 92k★</span>
+          <h3>MCP server and doc2md fixes</h3>
+          <p>Three fixes: absolute paths misread as Base64 in the MCP server, tool calls failing without an MCP session, and Word Heading 7–9 producing invalid Markdown.</p>
+          <p><a href="https://github.com/PaddlePaddle/PaddleOCR/pull/18416" target="_blank" rel="noopener">#18416</a> · <a href="https://github.com/PaddlePaddle/PaddleOCR/pull/18417" target="_blank" rel="noopener">#18417</a> · <a href="https://github.com/PaddlePaddle/PaddleOCR/pull/18418" target="_blank" rel="noopener">#18418</a></p>
+          <div class="chips"><span class="chip">MCP</span><span class="chip">OCR</span><span class="chip">In review</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">vLLM · 95k★</span>
+          <h3>Multi-channel audio reduction (design)</h3>
+          <p>Proposed how <code>channel_reduction</code> should group channels when downmixing audio for Whisper-style serving; a tested fix is ready pending maintainer feedback.</p>
+          <p><a href="https://github.com/vllm-project/vllm/issues/55986" target="_blank" rel="noopener">vllm-project/vllm#55986 →</a></p>
+          <div class="chips"><span class="chip">Speech</span><span class="chip">vLLM</span><span class="chip">Proposed</span></div>
+        </article>
+        <article class="card reveal">
+          <span class="tag">silero-vad · 10k★</span>
+          <h3>Asymmetric speech padding (design)</h3>
+          <p>Proposed separate start and end padding so VAD segment boundaries can be corrected in opposite directions, from my production speech chunking.</p>
+          <p><a href="https://github.com/snakers4/silero-vad/issues/798" target="_blank" rel="noopener">snakers4/silero-vad#798 →</a></p>
+          <div class="chips"><span class="chip">VAD</span><span class="chip">Speech</span><span class="chip">Proposed</span></div>
+        </article>
+      </div>
     </div>
   </section>
 
